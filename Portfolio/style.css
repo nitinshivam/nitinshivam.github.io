@@ -66,3 +66,24 @@ body {
     font-size: 2rem;
 }
 
+@media screen and (max-width: 640px){
+    #avtaar {
+        width: 25vw;
+        margin: 5vh 0px 0px 38vw; 
+        height: 15vh;
+    }  
+    #name{
+        color: white;
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .i-am{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 0.8rem;
+    }
+}
+
